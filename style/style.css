@@ -145,3 +145,79 @@
   display: none;
   position: absolute;
 }
+
+/* banner style */
+
+.banner__section {
+  max-width: 1370px;
+  margin: auto;
+  margin-top: 80px;
+}
+.banner__card:hover .banner__card--image {
+  opacity: 0.8;
+}
+
+.banner {
+  display: flex;
+}
+
+.banner__card {
+  position: relative;
+  max-width: 25%;
+  flex-basis: 25%;
+  padding: 0 15px 30px 15px;
+}
+
+.banner__card div {
+  background: white;
+  border-radius: 5px;
+}
+
+.banner__card--title {
+  font-family: var(--gb-font);
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  margin: 0;
+  margin-top: 75px;
+}
+
+.banner__card--wider {
+  position: relative;
+  max-width: 50%;
+  flex-basis: 50%;
+  overflow: hidden;
+  flex: 1 0 auto;
+  padding: 0 15px 30px 15px;
+}
+
+.banner__card--image {
+  border-radius: 5px;
+  transition: all ease-in-out 0.25s;
+  width: 100%;
+  opacity: 1;
+  display: block;
+}
+
+.row-second {
+  position: relative;
+}
+
+.row-second::after {
+  content: "";
+  position: absolute;
+  width: 100vw;
+  height: 50%;
+  background-color: var(--blue-secondary);
+  left: calc(685px - 50vw);
+  z-index: -1;
+  bottom: 0;
+}
+
+.banner__card--large {
+  margin-top: -150px;
+}
+
+.card--blue {
+  margin-top: -45px;
+}
