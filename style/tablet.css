@@ -1,0 +1,40 @@
+.card__product {
+  min-width: 32%;
+}
+
+.card__image img {
+  max-width: 187px;
+}
+
+.banner__section {
+  margin-top: 25px;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner__card {
+  width: 100%;
+  max-width: 100%;
+  padding-bottom: 15px;
+}
+
+.banner__card--title {
+  padding-bottom: 15px;
+  margin: 0%;
+}
+
+.banner__card--large {
+  margin: 0;
+}
+
+.card--blue {
+  margin: 0;
+}
+
+.row-second::after {
+  left: 0;
+  bottom: 0;
+}
