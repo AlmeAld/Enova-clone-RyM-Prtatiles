@@ -1,0 +1,147 @@
+@import url(./fonts/fonts.css);
+
+/* variables */
+:root {
+  --blue-color: #0820d7;
+  --gb-font: "Gotham";
+  --text-color: #334862;
+  --blue-secondary: #4659f5;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--gb-font);
+}
+
+.promotion {
+  max-width: 1370px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.promotion__title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+}
+
+.promotion__content {
+  display: flex;
+  margin-top: 34px;
+  padding: 0 45px;
+  position: relative;
+}
+
+.promotion__content:hover .promotion__button,
+.promotion__button:hover img {
+  display: block;
+  color: var(--blue-color);
+}
+
+.promotion--prev {
+  top: 170px;
+  left: -10px;
+  transform: translateX(20%);
+}
+.promotion--next {
+  top: 170px;
+  right: 0px;
+}
+
+.promotion__cards {
+  display: flex;
+  justify-content: start;
+  transition: 0.5s ease-in-out;
+  overflow: hidden;
+  margin: auto;
+}
+
+.card__product {
+  border: 1px solid #eaeaea;
+  border-radius: 5px;
+  margin: 0 10px 10px 0;
+  flex: 1 1 20%;
+  max-width: 20%;
+  cursor: grab;
+}
+
+.card__image {
+  padding: 10px;
+}
+
+.card__image img {
+  max-width: 224px;
+}
+
+.card__details {
+  padding: 15px;
+}
+
+.card__details a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.card__details--brand {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 19px;
+  margin-bottom: 5px;
+}
+
+.card__details--description {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  min-height: 108px;
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
+}
+
+.card__details-price {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  height: 17px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.card__details--get {
+  margin-top: 12px;
+  background-color: #e6e8fb;
+  color: var(--blue-color);
+  transition: all ease-in-out 0.15s;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 20px;
+  border: none;
+  padding: 10px 0;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.card__product:hover .card__details--get {
+  background-color: var(--blue-color);
+  color: #fff;
+}
+
+.card__product:hover {
+  border: 1px solid var(--blue-color);
+}
+
+.promotion__button {
+  background: transparent;
+  border: none;
+  outline: none;
+  width: 36px;
+  text-align: center;
+  cursor: pointer;
+  display: none;
+  position: absolute;
+}
