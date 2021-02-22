@@ -1,0 +1,18 @@
+.promotion__title {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.card__product {
+  min-width: 48%;
+}
+
+.card__image img {
+  max-width: 140px;
+  width: 100%;
+}
+
+.banner__card--title {
+  font-size: 24px;
+  line-height: 30px;
+}
