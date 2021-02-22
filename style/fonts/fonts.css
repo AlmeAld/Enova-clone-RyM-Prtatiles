@@ -2,6 +2,7 @@
   font-family: "Gotham";
   src: url("./Gotham-Regular.otf") format("truetype");
   font-weight: 400;
+  font-display: optional;
   font-style: normal;
 }
 
@@ -9,6 +10,7 @@
   font-family: "Gotham";
   src: url("./Gotham-Medium.otf") format("truetype");
   font-weight: 600;
+  font-display: optional;
   font-style: normal;
 }
 
@@ -16,5 +18,6 @@
   font-family: "Gotham";
   src: url("./Gotham-Bold.otf") format("truetype");
   font-weight: 700;
+  font-display: optional;
   font-style: normal;
 }
