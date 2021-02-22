@@ -18,7 +18,7 @@ None
 
 ## Authors
 
-- **Almendra Aldana** - _Initial work_ - [Github](https://github.com/AlmeAld)
+- **Almendra Maraví** - _Initial work_ - [Github](https://github.com/AlmeAld)
 
 ## License
 
